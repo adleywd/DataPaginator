@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{B63285D1-BD7F-40A7-ACE8-81518AEA4275}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9301C93-6708-47DC-92CF-CE5387BF3D2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPaginator.EntityFrameworkCore.Extensions", "src\DataPaginator.Extensions\DataPaginator.EntityFrameworkCore.Extensions.csproj", "{2914C89D-3C3F-4901-9848-352D83F2EC6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPaginator.Models.Abstractions", "src\DataPaginator.Models.Abstractions\DataPaginator.Models.Abstractions.csproj", "{1E292423-C7C9-4667-949A-466A26AB6DB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPaginator.Example.WebApi", "sample\DataPaginator.Example.WebApi\DataPaginator.Example.WebApi.csproj", "{F27D5EE8-7452-4D28-862D-F0141EACFE02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPaginator.Models", "src\DataPaginator.Models\DataPaginator.Models.csproj", "{E39E45B6-EDE1-4018-B0C5-48B5A48D4D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD372FCC-8D5C-4A93-8084-A29212F3D750}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2914C89D-3C3F-4901-9848-352D83F2EC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2914C89D-3C3F-4901-9848-352D83F2EC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2914C89D-3C3F-4901-9848-352D83F2EC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2914C89D-3C3F-4901-9848-352D83F2EC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E292423-C7C9-4667-949A-466A26AB6DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E292423-C7C9-4667-949A-466A26AB6DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E292423-C7C9-4667-949A-466A26AB6DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E292423-C7C9-4667-949A-466A26AB6DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27D5EE8-7452-4D28-862D-F0141EACFE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D5EE8-7452-4D28-862D-F0141EACFE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D5EE8-7452-4D28-862D-F0141EACFE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D5EE8-7452-4D28-862D-F0141EACFE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39E45B6-EDE1-4018-B0C5-48B5A48D4D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39E45B6-EDE1-4018-B0C5-48B5A48D4D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39E45B6-EDE1-4018-B0C5-48B5A48D4D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39E45B6-EDE1-4018-B0C5-48B5A48D4D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2914C89D-3C3F-4901-9848-352D83F2EC6A} = {F9301C93-6708-47DC-92CF-CE5387BF3D2E}
+		{1E292423-C7C9-4667-949A-466A26AB6DB4} = {F9301C93-6708-47DC-92CF-CE5387BF3D2E}
+		{F27D5EE8-7452-4D28-862D-F0141EACFE02} = {B63285D1-BD7F-40A7-ACE8-81518AEA4275}
+		{E39E45B6-EDE1-4018-B0C5-48B5A48D4D55} = {F9301C93-6708-47DC-92CF-CE5387BF3D2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB9545DE-0632-4238-A5F5-9B3BB3A46A3C}
+	EndGlobalSection
+EndGlobal
