@@ -4,7 +4,10 @@ DataPaginator is a library created with purpose to make easier the processes of 
 
 ## Installation
 
-Use the nuget pack manager to install DataPaginator.EntityFrameworkCore.Extensions.
+Use the nuget pack manager to install DataPaginator.EntityFrameworkCore.Extensions:
+`Install-Package DataPaginator.EntityFrameworkCore.Extensions -Version 1.0.0`
+or with .Net CLI:
+`dotnet add package DataPaginator.EntityFrameworkCore.Extensions--version 1.0.0`
 
 ## Usage
 
@@ -40,9 +43,11 @@ var result = await context.MyModel.AsNoTracking().OrderBy(d => d.Id).PaginateAsy
 ```
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
+
 MIT License
 
 Copyright (c) 2021 Adley Wollmann Damaceno
